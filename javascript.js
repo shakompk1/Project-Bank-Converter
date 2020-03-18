@@ -11,11 +11,12 @@ sum.addEventListener('click',function(){
     time = Math.floor(time/30)
     if(cv>0 && depo>=0 && rait >0 && time>0){
         balance = (cv*Math.pow(1+(rait/100)/12,time)) + depo*findPower(time,rait)
+        alert(balance)
     }else{
         result.innerHTML = "Error"
         console.log(NaN)
     }
-    alert(balance)
+    
 })
 
 function findPower(t,r){
