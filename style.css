@@ -4,8 +4,6 @@ body{
     align-items: center;
     height: 100vh;
 }
-main{
-}
 .row{
     display: flex;
     justify-content: space-between;
