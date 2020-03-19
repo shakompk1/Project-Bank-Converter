@@ -5,7 +5,6 @@ body{
     height: 100vh;
 }
 main{
-    width: 40%;
 }
 .row{
     display: flex;
@@ -15,6 +14,7 @@ main{
 p{
     margin: 0;
     font-size: 1.5em;
+    width: 400px;
 }
 input{
     height: 20px;
@@ -32,6 +32,7 @@ button{
     border:none;
 }
 p:last-child{
+    width: 100%;
     text-align: center;
     color:red;
 }

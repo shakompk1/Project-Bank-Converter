@@ -30,7 +30,7 @@ function check(cv,depo,rait,time){
         result.innerHTML += `Процентная ставка не может быть пустой или ниже нуля или выше нуля <br>`;
     }
     if(time <= 0){ 
-        result.innerHTML += `Срок вклада не может быть пустой или ниже нуля <br>`;
+        result.innerHTML += `Срок вклада не может быть пустой или ниже 30 дней <br>`;
     }
 }
 function findPower(t,r){
